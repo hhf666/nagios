@@ -1,0 +1,156 @@
+[1505464313] Nagios 4.3.4 starting... (PID=9463)
+[1505464313] Local time is Fri Sep 15 16:31:53 CST 2017
+[1505464313] LOG VERSION: 2.0
+[1505464313] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1505464313] qh: core query handler registered
+[1505464313] nerd: Channel hostchecks registered successfully
+[1505464313] nerd: Channel servicechecks registered successfully
+[1505464313] nerd: Channel opathchecks registered successfully
+[1505464313] nerd: Fully initialized and ready to rock!
+[1505464313] wproc: Successfully registered manager as @wproc with query handler
+[1505464313] wproc: Registry request: name=Core Worker 9465;pid=9465
+[1505464313] wproc: Registry request: name=Core Worker 9466;pid=9466
+[1505464313] wproc: Registry request: name=Core Worker 9467;pid=9467
+[1505464313] wproc: Registry request: name=Core Worker 9468;pid=9468
+[1505464314] Successfully launched command file worker with pid 9470
+[1505464314] HOST ALERT: localhost;DOWN;SOFT;1;(No output on stdout) stderr: execvp(/usr/local/nagios/libexec/check_ping, ...) failed. errno is 2: No such file or directory
+[1505464350] SERVICE ALERT: localhost;Current Load;CRITICAL;SOFT;1;(No output on stdout) stderr: execvp(/usr/local/nagios/libexec/check_load, ...) failed. errno is 2: No such file or directory
+[1505464350] HOST ALERT: localhost;DOWN;SOFT;2;(No output on stdout) stderr: execvp(/usr/local/nagios/libexec/check_ping, ...) failed. errno is 2: No such file or directory
+[1505464388] SERVICE ALERT: localhost;Current Users;CRITICAL;SOFT;1;(No output on stdout) stderr: execvp(/usr/local/nagios/libexec/check_users, ...) failed. errno is 2: No such file or directory
+[1505464388] HOST ALERT: localhost;DOWN;SOFT;3;(No output on stdout) stderr: execvp(/usr/local/nagios/libexec/check_ping, ...) failed. errno is 2: No such file or directory
+[1505464425] SERVICE ALERT: localhost;HTTP;CRITICAL;SOFT;1;(No output on stdout) stderr: execvp(/usr/local/nagios/libexec/check_http, ...) failed. errno is 2: No such file or directory
+[1505464425] HOST ALERT: localhost;DOWN;SOFT;4;(No output on stdout) stderr: execvp(/usr/local/nagios/libexec/check_ping, ...) failed. errno is 2: No such file or directory
+[1505464463] SERVICE ALERT: localhost;PING;CRITICAL;SOFT;1;(No output on stdout) stderr: execvp(/usr/local/nagios/libexec/check_ping, ...) failed. errno is 2: No such file or directory
+[1505464463] HOST ALERT: localhost;DOWN;SOFT;5;(No output on stdout) stderr: execvp(/usr/local/nagios/libexec/check_ping, ...) failed. errno is 2: No such file or directory
+[1505464500] SERVICE ALERT: localhost;Root Partition;CRITICAL;SOFT;1;(No output on stdout) stderr: execvp(/usr/local/nagios/libexec/check_disk, ...) failed. errno is 2: No such file or directory
+[1505464500] HOST ALERT: localhost;DOWN;SOFT;6;(No output on stdout) stderr: execvp(/usr/local/nagios/libexec/check_ping, ...) failed. errno is 2: No such file or directory
+[1505464538] SERVICE ALERT: localhost;SSH;CRITICAL;SOFT;1;(No output on stdout) stderr: execvp(/usr/local/nagios/libexec/check_ssh, ...) failed. errno is 2: No such file or directory
+[1505464538] HOST ALERT: localhost;DOWN;SOFT;7;(No output on stdout) stderr: execvp(/usr/local/nagios/libexec/check_ping, ...) failed. errno is 2: No such file or directory
+[1505464575] SERVICE ALERT: localhost;Swap Usage;CRITICAL;SOFT;1;(No output on stdout) stderr: execvp(/usr/local/nagios/libexec/check_swap, ...) failed. errno is 2: No such file or directory
+[1505464575] HOST ALERT: localhost;DOWN;SOFT;8;(No output on stdout) stderr: execvp(/usr/local/nagios/libexec/check_ping, ...) failed. errno is 2: No such file or directory
+[1505464613] SERVICE ALERT: localhost;Total Processes;CRITICAL;SOFT;1;(No output on stdout) stderr: execvp(/usr/local/nagios/libexec/check_procs, ...) failed. errno is 2: No such file or directory
+[1505464613] HOST ALERT: localhost;DOWN;SOFT;9;(No output on stdout) stderr: execvp(/usr/local/nagios/libexec/check_ping, ...) failed. errno is 2: No such file or directory
+[1505464673] SERVICE ALERT: localhost;Total Processes;OK;SOFT;2;PROCS OK: 43 processes with STATE = RSZDT
+[1505464677] HOST ALERT: localhost;UP;SOFT;10;PING OK - Packet loss = 0%, RTA = 0.04 ms
+[1505464710] SERVICE ALERT: localhost;Current Load;OK;SOFT;3;OK - load average: 0.64, 0.44, 0.27
+[1505464748] SERVICE ALERT: localhost;Current Users;OK;SOFT;3;USERS OK - 2 users currently logged in
+[1505464785] SERVICE ALERT: localhost;HTTP;WARNING;SOFT;3;HTTP WARNING: HTTP/1.1 403 Forbidden - 5179 bytes in 0.001 second response time
+[1505464827] SERVICE ALERT: localhost;PING;OK;SOFT;3;PING OK - Packet loss = 0%, RTA = 0.03 ms
+[1505464845] SERVICE ALERT: localhost;HTTP;WARNING;HARD;4;HTTP WARNING: HTTP/1.1 403 Forbidden - 5179 bytes in 0.001 second response time
+[1505464849] Caught SIGTERM, shutting down...
+[1505464849] Successfully shutdown... (PID=9463)
+[1505464849] Event broker module 'NERD' deinitialized successfully.
+[1505464850] Nagios 4.3.4 starting... (PID=29567)
+[1505464850] Local time is Fri Sep 15 16:40:50 CST 2017
+[1505464850] LOG VERSION: 2.0
+[1505464850] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1505464850] qh: core query handler registered
+[1505464850] nerd: Channel hostchecks registered successfully
+[1505464850] nerd: Channel servicechecks registered successfully
+[1505464850] nerd: Channel opathchecks registered successfully
+[1505464850] nerd: Fully initialized and ready to rock!
+[1505464850] wproc: Successfully registered manager as @wproc with query handler
+[1505464850] wproc: Registry request: name=Core Worker 29569;pid=29569
+[1505464850] wproc: Registry request: name=Core Worker 29570;pid=29570
+[1505464850] wproc: Registry request: name=Core Worker 29571;pid=29571
+[1505464850] wproc: Registry request: name=Core Worker 29572;pid=29572
+[1505464850] Successfully launched command file worker with pid 29574
+[1505464860] SERVICE ALERT: localhost;Root Partition;OK;SOFT;3;DISK OK - free space: / 43261 MB (93.68% inode=100%):
+[1505464887] SERVICE ALERT: localhost;Swap Usage;OK;SOFT;3;SWAP OK - 100% free (3967 MB out of 3967 MB)
+[1505464898] SERVICE ALERT: localhost;SSH;CRITICAL;SOFT;3;connect to address 127.0.0.1 and port 22: Connection refused
+[1505464958] SERVICE ALERT: localhost;SSH;CRITICAL;HARD;4;connect to address 127.0.0.1 and port 22: Connection refused
+[1505464967] Caught SIGTERM, shutting down...
+[1505464967] Successfully shutdown... (PID=29567)
+[1505464967] Event broker module 'NERD' deinitialized successfully.
+[1505464968] Nagios 4.3.4 starting... (PID=29651)
+[1505464968] Local time is Fri Sep 15 16:42:48 CST 2017
+[1505464968] LOG VERSION: 2.0
+[1505464968] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1505464968] qh: core query handler registered
+[1505464968] nerd: Channel hostchecks registered successfully
+[1505464968] nerd: Channel servicechecks registered successfully
+[1505464968] nerd: Channel opathchecks registered successfully
+[1505464968] nerd: Fully initialized and ready to rock!
+[1505464968] wproc: Successfully registered manager as @wproc with query handler
+[1505464968] wproc: Registry request: name=Core Worker 29653;pid=29653
+[1505464968] wproc: Registry request: name=Core Worker 29654;pid=29654
+[1505464968] wproc: Registry request: name=Core Worker 29655;pid=29655
+[1505464968] wproc: Registry request: name=Core Worker 29656;pid=29656
+[1505464968] Successfully launched command file worker with pid 29658
+[1505465104] Caught SIGTERM, shutting down...
+[1505465104] Successfully shutdown... (PID=29651)
+[1505465104] Event broker module 'NERD' deinitialized successfully.
+[1505465105] Nagios 4.3.4 starting... (PID=29748)
+[1505465105] Local time is Fri Sep 15 16:45:05 CST 2017
+[1505465105] LOG VERSION: 2.0
+[1505465105] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1505465105] qh: core query handler registered
+[1505465105] nerd: Channel hostchecks registered successfully
+[1505465105] nerd: Channel servicechecks registered successfully
+[1505465105] nerd: Channel opathchecks registered successfully
+[1505465105] nerd: Fully initialized and ready to rock!
+[1505465105] wproc: Successfully registered manager as @wproc with query handler
+[1505465105] wproc: Registry request: name=Core Worker 29750;pid=29750
+[1505465105] wproc: Registry request: name=Core Worker 29751;pid=29751
+[1505465105] wproc: Registry request: name=Core Worker 29752;pid=29752
+[1505465105] wproc: Registry request: name=Core Worker 29753;pid=29753
+[1505465105] Successfully launched command file worker with pid 29755
+[1505465146] Caught SIGTERM, shutting down...
+[1505465146] Successfully shutdown... (PID=29748)
+[1505465146] Event broker module 'NERD' deinitialized successfully.
+[1505465147] Nagios 4.3.4 starting... (PID=29825)
+[1505465147] Local time is Fri Sep 15 16:45:47 CST 2017
+[1505465147] LOG VERSION: 2.0
+[1505465147] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1505465147] qh: core query handler registered
+[1505465147] nerd: Channel hostchecks registered successfully
+[1505465147] nerd: Channel servicechecks registered successfully
+[1505465147] nerd: Channel opathchecks registered successfully
+[1505465147] nerd: Fully initialized and ready to rock!
+[1505465147] wproc: Successfully registered manager as @wproc with query handler
+[1505465147] wproc: Registry request: name=Core Worker 29827;pid=29827
+[1505465147] wproc: Registry request: name=Core Worker 29828;pid=29828
+[1505465147] wproc: Registry request: name=Core Worker 29829;pid=29829
+[1505465147] wproc: Registry request: name=Core Worker 29830;pid=29830
+[1505465147] Successfully launched command file worker with pid 29832
+[1505465159] Caught SIGTERM, shutting down...
+[1505465159] Successfully shutdown... (PID=29825)
+[1505465159] Event broker module 'NERD' deinitialized successfully.
+[1505465160] Nagios 4.3.4 starting... (PID=29885)
+[1505465160] Local time is Fri Sep 15 16:46:00 CST 2017
+[1505465160] LOG VERSION: 2.0
+[1505465160] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1505465160] qh: core query handler registered
+[1505465160] nerd: Channel hostchecks registered successfully
+[1505465160] nerd: Channel servicechecks registered successfully
+[1505465160] nerd: Channel opathchecks registered successfully
+[1505465160] nerd: Fully initialized and ready to rock!
+[1505465160] wproc: Successfully registered manager as @wproc with query handler
+[1505465160] wproc: Registry request: name=Core Worker 29887;pid=29887
+[1505465160] wproc: Registry request: name=Core Worker 29888;pid=29888
+[1505465160] wproc: Registry request: name=Core Worker 29889;pid=29889
+[1505465160] wproc: Registry request: name=Core Worker 29890;pid=29890
+[1505465160] Successfully launched command file worker with pid 29892
+[1505465445] SERVICE ALERT: localhost;HTTP;OK;HARD;4;HTTP OK: HTTP/1.1 200 OK - 269 bytes in 0.001 second response time
+[1505468760] Auto-save of retention data completed successfully.
+[1505471310] SERVICE ALERT: localhost;Current Load;WARNING;SOFT;1;WARNING - load average: 5.74, 3.65, 1.61
+[1505471370] SERVICE ALERT: localhost;Current Load;WARNING;SOFT;2;WARNING - load average: 5.32, 3.93, 1.84
+[1505471430] SERVICE ALERT: localhost;Current Load;OK;SOFT;3;OK - load average: 3.80, 3.82, 1.94
+[1505472360] Auto-save of retention data completed successfully.
+[1505475960] Auto-save of retention data completed successfully.
+[1505476830] SERVICE ALERT: localhost;Current Load;WARNING;SOFT;1;WARNING - load average: 5.78, 3.19, 1.35
+[1505476890] SERVICE ALERT: localhost;Current Load;WARNING;SOFT;2;WARNING - load average: 6.14, 3.74, 1.65
+[1505476950] SERVICE ALERT: localhost;Current Load;WARNING;SOFT;3;WARNING - load average: 5.80, 4.04, 1.88
+[1505477010] SERVICE ALERT: localhost;Current Load;WARNING;HARD;4;WARNING - load average: 5.81, 4.35, 2.12
+[1505477010] SERVICE NOTIFICATION: nagiosadmin;localhost;Current Load;WARNING;notify-service-by-email;WARNING - load average: 5.81, 4.35, 2.12
+[1505477310] SERVICE ALERT: localhost;Current Load;OK;HARD;4;OK - load average: 1.37, 3.19, 2.30
+[1505477310] SERVICE NOTIFICATION: nagiosadmin;localhost;Current Load;OK;notify-service-by-email;OK - load average: 1.37, 3.19, 2.30
+[1505479560] Auto-save of retention data completed successfully.
+[1505482410] SERVICE ALERT: localhost;Current Load;WARNING;SOFT;1;WARNING - load average: 5.31, 3.36, 1.47
+[1505482470] SERVICE ALERT: localhost;Current Load;OK;SOFT;2;OK - load average: 4.83, 3.63, 1.69
+[1505483160] Auto-save of retention data completed successfully.
+[1505486760] Auto-save of retention data completed successfully.
+[1505487870] SERVICE ALERT: localhost;Current Load;WARNING;SOFT;1;WARNING - load average: 5.10, 3.06, 1.38
+[1505487930] SERVICE ALERT: localhost;Current Load;WARNING;SOFT;2;WARNING - load average: 5.09, 3.42, 1.61
+[1505487990] SERVICE ALERT: localhost;Current Load;OK;SOFT;3;OK - load average: 4.42, 3.57, 1.78
+[1505490360] Auto-save of retention data completed successfully.

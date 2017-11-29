@@ -1,0 +1,76 @@
+[1505664000] LOG ROTATION: DAILY
+[1505664000] LOG VERSION: 2.0
+[1505664000] CURRENT HOST STATE: localhost;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.04 ms
+[1505664000] CURRENT SERVICE STATE: localhost;Current Load;OK;HARD;1;OK - load average: 1.51, 1.31, 0.96
+[1505664000] CURRENT SERVICE STATE: localhost;Current Users;OK;HARD;1;USERS OK - 1 users currently logged in
+[1505664000] CURRENT SERVICE STATE: localhost;HTTP;OK;HARD;1;HTTP OK: HTTP/1.1 200 OK - 269 bytes in 0.001 second response time
+[1505664000] CURRENT SERVICE STATE: localhost;PING;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.04 ms
+[1505664000] CURRENT SERVICE STATE: localhost;Root Partition;OK;HARD;1;DISK OK - free space: / 40235 MB (87.13% inode=100%):
+[1505664000] CURRENT SERVICE STATE: localhost;SSH;CRITICAL;HARD;4;connect to address 127.0.0.1 and port 22: Connection refused
+[1505664000] CURRENT SERVICE STATE: localhost;Swap Usage;OK;HARD;1;SWAP OK - 100% free (3967 MB out of 3967 MB)
+[1505664000] CURRENT SERVICE STATE: localhost;Total Processes;OK;HARD;1;PROCS OK: 57 processes with STATE = RSZDT
+[1505666760] Auto-save of retention data completed successfully.
+[1505670360] Auto-save of retention data completed successfully.
+[1505673960] Auto-save of retention data completed successfully.
+[1505677560] Auto-save of retention data completed successfully.
+[1505681160] Auto-save of retention data completed successfully.
+[1505684760] Auto-save of retention data completed successfully.
+[1505688360] Auto-save of retention data completed successfully.
+[1505691960] Auto-save of retention data completed successfully.
+[1505695560] Auto-save of retention data completed successfully.
+[1505699160] Auto-save of retention data completed successfully.
+[1505702760] Auto-save of retention data completed successfully.
+[1505706360] Auto-save of retention data completed successfully.
+[1505709960] Auto-save of retention data completed successfully.
+[1505713560] Auto-save of retention data completed successfully.
+[1505715009] Caught SIGTERM, shutting down...
+[1505715009] Successfully shutdown... (PID=29885)
+[1505715009] Event broker module 'NERD' deinitialized successfully.
+[1505892018] Nagios 4.3.4 starting... (PID=18596)
+[1505892018] Local time is Wed Sep 20 15:20:18 CST 2017
+[1505892018] LOG VERSION: 2.0
+[1505892018] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1505892018] qh: core query handler registered
+[1505892018] nerd: Channel hostchecks registered successfully
+[1505892018] nerd: Channel servicechecks registered successfully
+[1505892018] nerd: Channel opathchecks registered successfully
+[1505892018] nerd: Fully initialized and ready to rock!
+[1505892018] wproc: Successfully registered manager as @wproc with query handler
+[1505892018] wproc: Registry request: name=Core Worker 18598;pid=18598
+[1505892018] wproc: Registry request: name=Core Worker 18599;pid=18599
+[1505892018] wproc: Registry request: name=Core Worker 18600;pid=18600
+[1505892018] wproc: Registry request: name=Core Worker 18601;pid=18601
+[1505892019] Successfully launched command file worker with pid 18603
+[1505893330] SERVICE ALERT: localhost;HTTP;CRITICAL;SOFT;1;connect to address 127.0.0.1 and port 80: Connection refused
+[1505893390] SERVICE ALERT: localhost;HTTP;OK;SOFT;2;HTTP OK: HTTP/1.1 200 OK - 269 bytes in 0.001 second response time
+[1505893690] SERVICE ALERT: localhost;HTTP;CRITICAL;SOFT;1;connect to address 127.0.0.1 and port 80: Connection refused
+[1505893750] SERVICE ALERT: localhost;HTTP;CRITICAL;SOFT;2;connect to address 127.0.0.1 and port 80: Connection refused
+[1505893810] SERVICE ALERT: localhost;HTTP;CRITICAL;SOFT;3;connect to address 127.0.0.1 and port 80: Connection refused
+[1505893870] SERVICE ALERT: localhost;HTTP;CRITICAL;HARD;4;connect to address 127.0.0.1 and port 80: Connection refused
+[1505895618] Auto-save of retention data completed successfully.
+[1505899218] Auto-save of retention data completed successfully.
+[1505902818] Auto-save of retention data completed successfully.
+[1505906418] Auto-save of retention data completed successfully.
+[1505910018] Auto-save of retention data completed successfully.
+[1505913618] Auto-save of retention data completed successfully.
+[1505914383] Caught SIGTERM, shutting down...
+[1505914383] Successfully shutdown... (PID=18596)
+[1505914383] Event broker module 'NERD' deinitialized successfully.
+[1505914480] Nagios 4.3.4 starting... (PID=11014)
+[1505914480] Local time is Wed Sep 20 21:34:40 CST 2017
+[1505914480] LOG VERSION: 2.0
+[1505914480] qh: Socket '/usr/local/nagios/var/rw/nagios.qh' successfully initialized
+[1505914480] qh: core query handler registered
+[1505914480] nerd: Channel hostchecks registered successfully
+[1505914480] nerd: Channel servicechecks registered successfully
+[1505914480] nerd: Channel opathchecks registered successfully
+[1505914480] nerd: Fully initialized and ready to rock!
+[1505914480] wproc: Successfully registered manager as @wproc with query handler
+[1505914480] wproc: Registry request: name=Core Worker 11015;pid=11015
+[1505914480] wproc: Registry request: name=Core Worker 11016;pid=11016
+[1505914480] wproc: Registry request: name=Core Worker 11017;pid=11017
+[1505914480] wproc: Registry request: name=Core Worker 11018;pid=11018
+[1505914480] Successfully launched command file worker with pid 11019
+[1505914536] Caught SIGTERM, shutting down...
+[1505914536] Successfully shutdown... (PID=11014)
+[1505914536] Event broker module 'NERD' deinitialized successfully.

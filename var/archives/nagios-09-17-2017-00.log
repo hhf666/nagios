@@ -1,0 +1,37 @@
+[1505491200] LOG ROTATION: DAILY
+[1505491200] LOG VERSION: 2.0
+[1505491200] CURRENT HOST STATE: localhost;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.04 ms
+[1505491200] CURRENT SERVICE STATE: localhost;Current Load;OK;HARD;1;OK - load average: 0.00, 0.01, 0.15
+[1505491200] CURRENT SERVICE STATE: localhost;Current Users;OK;HARD;1;USERS OK - 1 users currently logged in
+[1505491200] CURRENT SERVICE STATE: localhost;HTTP;OK;HARD;1;HTTP OK: HTTP/1.1 200 OK - 269 bytes in 0.001 second response time
+[1505491200] CURRENT SERVICE STATE: localhost;PING;OK;HARD;1;PING OK - Packet loss = 0%, RTA = 0.04 ms
+[1505491200] CURRENT SERVICE STATE: localhost;Root Partition;OK;HARD;1;DISK OK - free space: / 42822 MB (92.73% inode=100%):
+[1505491200] CURRENT SERVICE STATE: localhost;SSH;CRITICAL;HARD;4;connect to address 127.0.0.1 and port 22: Connection refused
+[1505491200] CURRENT SERVICE STATE: localhost;Swap Usage;OK;HARD;1;SWAP OK - 100% free (3967 MB out of 3967 MB)
+[1505491200] CURRENT SERVICE STATE: localhost;Total Processes;OK;HARD;1;PROCS OK: 58 processes with STATE = RSZDT
+[1505493960] Auto-save of retention data completed successfully.
+[1505497560] Auto-save of retention data completed successfully.
+[1505498790] SERVICE ALERT: localhost;Current Load;WARNING;SOFT;1;WARNING - load average: 5.08, 3.88, 1.95
+[1505498850] SERVICE ALERT: localhost;Current Load;OK;SOFT;2;OK - load average: 4.18, 3.81, 2.05
+[1505501160] Auto-save of retention data completed successfully.
+[1505504760] Auto-save of retention data completed successfully.
+[1505508360] Auto-save of retention data completed successfully.
+[1505511960] Auto-save of retention data completed successfully.
+[1505515560] Auto-save of retention data completed successfully.
+[1505519160] Auto-save of retention data completed successfully.
+[1505522760] Auto-save of retention data completed successfully.
+[1505526360] Auto-save of retention data completed successfully.
+[1505529960] Auto-save of retention data completed successfully.
+[1505533560] Auto-save of retention data completed successfully.
+[1505537160] Auto-save of retention data completed successfully.
+[1505540760] Auto-save of retention data completed successfully.
+[1505544360] Auto-save of retention data completed successfully.
+[1505547960] Auto-save of retention data completed successfully.
+[1505551560] Auto-save of retention data completed successfully.
+[1505555160] Auto-save of retention data completed successfully.
+[1505558760] Auto-save of retention data completed successfully.
+[1505562360] Auto-save of retention data completed successfully.
+[1505565960] Auto-save of retention data completed successfully.
+[1505569560] Auto-save of retention data completed successfully.
+[1505573160] Auto-save of retention data completed successfully.
+[1505576760] Auto-save of retention data completed successfully.
