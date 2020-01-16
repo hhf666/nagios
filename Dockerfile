@@ -1,4 +1,4 @@
-FROM centos:latest
+FROM centos:7.4.1708
 MAINTAINER hhf
 
 ENV NAGIOS_HOME            /usr/local/nagios
@@ -166,4 +166,4 @@ VOLUME /usr/local/nagios/etc
 VOLUME /usr/local/nagios/libexec
 VOLUME /usr/local/nagios/share
 
-CMD ["/usr/bin/supervisord"]
+CMD ["/usr/bin/supervisord","-c","/etc/supervisord.conf"]
