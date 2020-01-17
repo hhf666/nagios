@@ -17,8 +17,8 @@ docker run -d --name nagios --restart always \
 Q：
 无法修改文件
 A：
-useradd -s /sbin/nologin nagios 
-passwd -l nagios 
+useradd -s /sbin/nologin nagios
+passwd -l nagios
 chown -R nagios:nagios /opt/nagios/
 
 # web登录
