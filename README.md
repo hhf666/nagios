@@ -11,3 +11,7 @@ docker run -d --name nagios --restart always \
   -v /opt/nagios/share/images/sblogo.png:/usr/local/nagios/share/images/sblogo.png:rw \
   -v /opt/nagios/share/images/logofullsize.png:/usr/local/nagios/share/images/logofullsize.png:rw \
   -p 8080:80 nagios
+
+# web登录
+http://ip:8080/nagios
+默认账号/密码：nagiosadmin/nagios
