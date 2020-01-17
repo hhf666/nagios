@@ -13,12 +13,17 @@ docker run -d --name nagios --restart always \
   -p 8080:80 nagios
 
 # 宿主机
+
 注：确保目录挂载正确
+
 Q：
 无法修改文件
+
 A：
 useradd -s /sbin/nologin nagios
+
 passwd -l nagios
+
 chown -R nagios:nagios /opt/nagios/
 
 # web登录
