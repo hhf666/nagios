@@ -15,3 +15,8 @@ docker run -d --name nagios --restart always \
 # web登录
 http://ip:8080/nagios
 默认账号/密码：nagiosadmin/nagios
+
+# 宿主机
+useradd -s /sbin/nologin nagios 
+passwd -l nagios
+chown -R nagios:nagios /opt/nagios/
