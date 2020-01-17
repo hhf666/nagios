@@ -14,7 +14,7 @@ docker run -d --name nagios --restart always \
 
 # 宿主机
 
-注：确保目录挂载正确
+注：确保目录挂载正确  \
 Q：
 无法修改文件 \
 A：
